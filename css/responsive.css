@@ -1,0 +1,150 @@
+
+/* Media Query */
+@media only screen and (max-width: 1024px) {
+  .card-img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    right: 8px;
+    border-radius: 50%;
+}
+.card-item:nth-child(1) > .card-img > i {
+  position: absolute;
+  top: 16px;
+  left: 13px;
+  color: #e52d27;
+  font-size: 20px;
+}
+.card-item > .card-hdBox > h3 {
+  font-size: 18px;
+}
+.card-item:nth-child(2) > .card-img > i {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  font-size: 20px;
+}
+.card-item:nth-child(3) > .card-img > i {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 20px;
+}
+.card-item:nth-child(4) > .card-img > i {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  font-size: 20px;
+}
+}
+
+
+@media only screen and (max-width: 992px) {
+  
+  /* Notification Box  */
+  .notification-box {
+    width: 50%;
+    height: 370px;
+  }
+  .setting-box {
+    width: 40%;
+   
+  }
+
+    /* Social media cards */
+    .card-social {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .card-social > .card-social-item {
+      width: 100%;
+      margin-top: 25px;
+    }
+    .card-social-item:nth-child(1) .card-item-counter > div > progress {
+      width: 91%;
+    }
+  
+    /* Social media cards End*/
+  
+    .table-profile-block > .table-block {
+      width: 49%;
+    }
+    .table-profile-block > .profile-block {
+      width: 49%;
+      margin-top: 10px;
+    }
+
+    /* Chart page */
+    .chart-block{
+        flex-direction: column;
+    }
+    .chart-block > div {
+        width: 100%;
+        margin-top: 25px;
+    }
+    /* Chart page End */
+  }
+  
+  @media (max-width: 786px) {
+    /* Top main Card  */
+    .cards {
+      flex-direction: column;
+    }
+    .card-item {
+      width: 100%;
+      margin-top: 25px;
+    }
+
+
+  
+    /* Top main Card End */
+  
+    /* main cards block  */
+    .card-social {
+      flex-direction: column;
+    }
+  
+  /* table & profile block */
+  
+    .table-profile-block {
+      flex-direction: column;
+    }
+    .table-profile-block > .table-block {
+      width: 100%;
+    }
+    .table-profile-block > .profile-block {
+      width: 100%;
+    }
+  
+    
+  }
+  
+  @media only screen and (max-width: 645px) {
+    
+    /* Notification Box  */
+    .notification-box {
+      width: 70%;
+      height: 370px;
+    }
+
+    .setting-box {
+      width: 50%;
+     
+    }
+  }
+  @media only screen and (max-width: 487px) {
+    .notification-box {
+     top: 130px;
+     right: 20px;
+     width: 90%; 
+    }
+
+    .setting-box {
+      width: 80%; 
+     top: 130px;
+
+    }
+  }

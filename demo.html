@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+        div {
+  margin: 10px;
+  padding: 10px;
+}
+
+.a {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.b {
+  background: #999;
+  border: 1px solid #666;
+}
+    </style>
+
+</head>
+<body>
+    <div class="a">
+        <p>lorem ipsum dolor site amet...</p>
+      </div>
+      
+      <div class="b" id="hello" >
+      
+      </div>
+</body>
+<script>
+ $(window).resize(function() {
+
+  if ($(window).width() < 768) {
+    $('.b').attr('style', 'display:block;');
+    $('.a p').appendTo('.b');
+
+  }
+  else{
+    $('.b p').appendTo('.a');
+    $('.b').attr('style', 'display:none;');
+
+  }
+}).resize();
+</script>
+</html>

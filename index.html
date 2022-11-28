@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <title>NeoSoft</title>
+
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"> -->
+</head>
+
+<body>
+
+   <div class="sidebar">
+      <header>
+         <span class="websiteName"> <i class="fa fa-bolt" aria-hidden="true"></i> Admin</span>
+         <button id="togglebutton"><span class="fas fa-stream"></span></button>
+
+
+      </header>
+      <a href="#" class="active">
+         <i class="fas fa-qrcode" aria-hidden="true"></i>
+         <span class="menuName">Dashboard</span>
+      </a>
+      <a href="#">
+         <i class="fas fa-link" aria-hidden="true"></i>
+         <span class="menuName">Shortcuts</span>
+      </a>
+      <a href="#">
+         <i class="fas fa-stream" aria-hidden="true"></i>
+         <span class="menuName">Overview</span>
+      </a>
+      <a href="#">
+         <i class="fas fa-calendar" aria-hidden="true"></i>
+         <span class="menuName">Events</span>
+      </a>
+      <a href="#">
+         <i class="far fa-question-circle" aria-hidden="true"></i>
+         <span class="menuName">About</span>
+      </a>
+      <a href="chart.html">
+         <i class="fas fa-chart-line"></i>
+         <span class="menuName">Chart</span>
+      </a>
+      <a href="#">
+         <i class="far fa-envelope" aria-hidden="true"></i>
+         <span class="menuName">Contact</span>
+      </a>
+   </div>
+
+   <section>
+
+      <div class="topBar">
+         <form action="" class="global-search">
+            <input type="text" placeholder="Search... "><span class="fas fa-times"></span>
+            <button><span class="fa fa-search"></span></button>
+         </form>
+
+         <div class="notification-section noti-op">
+            <span class="fa fa-bell"></span>
+            <span class="fa fa-angle-down "></span>
+         </div>
+         <div class="setting-section setting-op">
+            <span class="fa fa-cog"></span>
+            <span class="fa fa-angle-down"></span>
+         </div>
+
+         <div class="notification-box">
+            <div class="noti-header">
+               Notification
+               <div class="noti-header-label">
+                  <p>mark as read</p>
+                  <p> clear all</p>
+               </div>
+            </div>
+            <div class="notification-body">
+               <ul>
+                  <li>
+                     <div class="noti-items-title">
+                        <p>NEW</p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>5 min</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items-title">
+                        <p>EARLIER</p>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>10 min</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>12 min</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>30 min</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>1 hour</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>5 min</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="noti-items">
+                        <img src="image/profile.jpg" alt="">
+                        <div class="noti-items-txt">
+                           <p>John Doe</p>
+                           <p>New ticket Added</p>
+
+                           <div class="noti-time">
+                              <i class="far fa-clock nc" aria-hidden="true"></i>
+                              <span>5 min</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+
+
+               </ul>
+            </div>
+            <div class="noti-footer">
+               <a href="">show all</a>
+            </div>
+
+         </div>
+         <div class="setting-box">
+            <div class="setting-header">
+               <img src="image/profile.jpg" alt="">
+               <div class="setting-username"><span>John Doe</span></div>
+               <div class="setting-header-label">
+                  <i class="fas fa-sign-out-alt"></i>
+               </div>
+            </div>
+            <div class="setting-body">
+               <ul>
+                  <li>
+                     <a href="">
+                        <i class="sus fa fa-cog" aria-hidden="true"></i>
+                        Setting
+                     </a>
+                  </li>
+                  <li>
+                     <a href="">
+                        <i class="sus fa fa-user" aria-hidden="true"></i>
+                        Profile
+                     </a>
+                  </li>
+                  <li>
+                     <a href="">
+                        <i class="sus far fa-envelope"></i> My Messages
+                     </a>
+                  </li>
+                  <li>
+                     <a href="">
+                        <i class="sus fa fa-lock" aria-hidden="true"></i>
+                        Lock Screen
+                     </a>
+                  </li>
+
+               </ul>
+            </div>
+         </div>
+      </div>
+
+
+      <main>
+
+         <h4>Home</h4>
+         <span style="color: gray;"><i class="fa fa-home" aria-hidden="true"></i>
+            /
+            <i>Analytics Dashboard</i></span>
+
+         <!-- Top main cards  -->
+         <div class="cards">
+            <div class="card-item">
+               <div class="card-hdBox">
+                  <span class="card-hd1">Total Profit<br /></span>
+                  <h3 class="card-hd2">&#x20B9; 12,800<br /></h3>
+               </div>
+               <p class="card-hd3"><span>+11%</span>From Previous Month</p>
+               <span class="card-img"><i class="fas fa-money-bill-alt"></i></span>
+            </div>
+            <div class="card-item">
+               <div class="card-hdBox">
+                  <span class="card-hd1"> Total Profit<br /></span>
+                  <h3 class="card-hd2">15,300<br /></h3>
+               </div>
+               <p class="card-hd3"><span>+11%</span>From Previous Month</p>
+               <span class="card-img"><i class="fas fa-database"></i></span>
+            </div>
+            <div class="card-item">
+               <div class="card-hdBox">
+                  <span class="card-hd1">Total Profit<br /></span>
+                  <h3 class="card-hd2">&#x20B9; 12,800<br /></h3>
+               </div>
+               <p class="card-hd3"><span>+11%</span>From Previous Month</p>
+               <span class="card-img"><i class="fas fa-dollar-sign"></i></span>
+            </div>
+            <div class="card-item">
+               <div class="card-hdBox">
+                  <span class="card-hd1">Total Profit<br /></span>
+                  <h3 class="card-hd2">20,300<br /></h3>
+               </div>
+               <p class="card-hd3"><span>+11%</span>From Previous Month</p>
+               <span class="card-img"><i class="fas fa-tags"></i></span>
+            </div>
+         </div>
+
+         <!-- Top main cards End -->
+
+         <!-- Social media cards -->
+         <div class="card-social">
+            <div class="card-social-item">
+               <div class="card-item-content">
+                  <div>
+                     <img src="image/fb.png" alt="">
+                  </div>
+                  <div class="social-count">
+                     <h2>12,218</h3>
+                        <h5>+7.2% <span>Total Likes</span></h5>
+                  </div>
+               </div>
+               <div class="card-item-counter">
+                  <div>
+                     <span>Target</span>: 35,098
+                     <progress id="file" value="60" max="100"> 32% </progress>
+                  </div>
+                  <div>
+                     <span>Duration</span>: 800
+                     <progress id="file" value="60" max="100"> 32% </progress>
+                  </div>
+               </div>
+            </div>
+            <div class="card-social-item">
+               <div class="card-item-content">
+                  <div>
+                     <img src="image/twiter.png" alt="">
+                  </div>
+                  <div class="social-count">
+                     <h2>12,218</h3>
+                        <h5>+7.2% <span>Total Likes</span></h5>
+                  </div>
+               </div>
+               <div class="card-item-counter">
+                  <div>
+                     <span>Target</span>: 35,098
+                     <progress id="file" value="60" max="100"> 32% </progress>
+                  </div>
+                  <div>
+                     <span>Duration</span>: 800
+                     <progress id="file" value="60" max="100"> 32% </progress>
+                  </div>
+               </div>
+            </div>
+            <div class="card-social-item">
+               <div class="card-item-content">
+                  <div>
+                     <img src="image/google.png" alt="">
+                  </div>
+                  <div class="social-count">
+                     <h2>12,218</h3>
+                        <h5>+7.2% <span>Total Likes</span></h5>
+                  </div>
+               </div>
+               <div class="card-item-counter">
+                  <div>
+                     <span>Target</span>: 35,098
+                     <progress id="file" value="65" max="100"> 32% </progress>
+                  </div>
+                  <div>
+                     <span>Duration</span>: 800
+                     <progress id="file" value="65" max="100"> 32% </progress>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Social media cards End -->
+
+         <!-- Table and profile -->
+         <div class="table-profile-block">
+            <div class="table-block">
+               <div>
+                  <h5>Site visitors session log</h5>
+               </div>
+               <table>
+                  <thead>
+                     <tr>
+                        <th>CAMPAIGN DATE</th>
+                        <th>CLICK <i class="far fa-question-circle msg-box"></i>
+                           <div class="talkbubble">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                        <th>COST <i class="far fa-qrcode fa-question-circle msg-box"></i>
+                           <div class="talkbubble">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                        <th>CTR <i class="far fa-qrcode fa-question-circle msg-box"></i>
+                           <div class="talkbubble">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                        <th>ARPU <i class="far fa-qrcode fa-question-circle msg-box"></i>
+                           <div class="talkbubble">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                        <th>ECPI<i class="far fa-qrcode fa-question-circle msg-box1"></i>
+                           <div class="talkbubbleLeft">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                        <th>ROI <i class="far fa-qrcode fa-question-circle msg-box1"></i>
+                           <div class="talkbubbleLeft">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                        <th>REVENUE <i class="far fa-qrcode fa-question-circle msg-box1"></i>
+                           <div class="talkbubbleLeft">
+                              <div>
+                                 <h3>Popover title</h3>
+                              </div>
+                              <div>
+                                 <p>And here's some amazing content. It's very engaging. Right?</p>
+                              </div>
+                           </div>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Total and average</td>
+                        <td>1300</td>
+                        <td>1025</td>
+                        <td>1025</td>
+                        <td>95,3%</td>
+                        <td>29,9%</td>
+                        <td>1025</td>
+                        <td>1025</td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>8-11-2016</td>
+                        <td>1300
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>
+                           1025<br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>95,3%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>29,9%
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                        <td>1025
+                           <br>
+                           <progress id="file" value="60" max="100"> 32% </progress>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+
+            <div class="profile-block">
+               <h5 class="block-top-header">Profile</h5>
+               <div class="profile-content">
+                  <div class="profile-pic">
+                     <img src="image/profile.jpg" alt="">
+                  </div>
+                  <h3>Alessa Robert</h3>
+                  <ul>
+                     <li>Active</li>
+                     <li>Male</li>
+                     <li>Born 23.0</li>
+                  </ul>
+
+               </div>
+               <div class="profile-info">
+                  <p>Activity Level: 87%</p>
+                  <div class="profile-details-count">
+                     <div>
+                        <i class="fas fa-calendar-check"></i></br>
+                        1200
+                     </div>
+                     <div>
+                        <i class="fas fa-user"></i></br>
+                        3737
+                     </div>
+                     <div>
+                        <i class="fas fa-folder-open"></i></br>
+                        847
+                     </div>
+
+                  </div>
+                  <p class="profile-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+               <div class="profile-social-icon">
+                  <img src="image/fb.png" alt="">
+                  <img src="image/twiter.png" alt="">
+                  <img src="image/insta.png" alt="">
+               </div>
+            </div>
+         </div>
+         <!-- Table and profile End -->
+
+
+
+      </main>
+
+   </section>
+
+
+
+
+
+
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/task.js"></script>
+
+</body>
+
+</html>
